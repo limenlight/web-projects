@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>initial</title>
+    <title>Everything about Style</title>
+    <link rel="stylesheet" href="/Users/cgarcia/Web-develop/Projects/Design-system/web-projects/Design-system/resources/css/styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <h1 class="title">Basic style guide for your website</h1>
+    </header>
+    <main>
+        <div class="intro">
+            <h2>Why is it important to use style on a website?</h2>
+            <p>
+                Adding style to a website, typically accomplished through CSS (Cascading Style Sheets), is essential because it defines the visual appearance and layout of a webpage. This not only makes the site user-friendly and aesthetically pleasing but also ensures consistency with the brand identity. Ultimately, styling enhances the overall user experience by providing a clear structure and a professional look across different pages. The purpose of this webpage is to provide you with a basic understanding of colors, fonts, and text styles in web design.
+            </p>
+        </div>
+        <div class="colors">
+            <h2>Colors</h2>
+            <p>
+                There are four ways to represent color in CSS:
+            </p>
+            <ul>
+                <li><h3>Named colors:</h3> 
+                    <ul>
+                        <li>There are more than 140 named colors.</li>
+                    </ul>
+                </li>
+                <li><h3>Hexadecimal or hex colors:</h3>
+                    <ul>
+                        <li>Hexadecimal is a number system that has sixteen digits, 0 to 9 followed by “A” to “F”.</li>
+                        <li>Hex values always begin with <span>#</span> and specify values of red, blue, and green using hexadecimal numbers such as <span>#23F41A</span>.</li>
+                        <li>Six-digit hex values with duplicate values for each RGB value can be shorted to three digits.</li>
+                    </ul>
+                </li>
+                <li><h3>RGB</h3>
+                    <ul>
+                        <li>RGB colors use the <span>rgb()</span> syntax with one value for red, one value for blue and one value for green.</li>
+                        <li>RGB values range from 0 to 255 and look like this: <span>rgb(7, 210, 50)</span>.</li>
+                    </ul>
+                </li>
+                <li><h3>HSL</h3>
+                    <ul>
+                        <li>HSL stands for hue (the color itself), saturation (the intensity of the color), and lightness (how light or dark a color is).</li>
+                        <li>Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: <span>hsl(200, 20%, 50%)</span>.</li>
+                    </ul>
+                </li>
+                <li>You can add opacity to color in RGB and HSL by adding a fourth value, <span>a</span>, which is represented as a percentage.</li>
+            </ul>
+            <div class="c-example-1">
+                <h3>Cornflower blue</h3>
+                <h4>#6494eddf</h4>
+                <h4>rgba(100, 148, 237, 0.873)</h4>
+                <h4>hsla(219, 79%, 66%, 0.873)</h4>
+            </div>
+            <div class="c-example-2">
+                <h3>Radioactive green</h3>
+                <h4>#bada55</h4>
+                <h4>rgb(186, 218, 85)</h4>
+                <h4>hsl(74, 64.3%, 59.4%)</h4>
+            </div>
+            <div class="c-example-3">
+                <h3>Cian</h3>
+                <h4>#54d9d799</h4>
+                <h4>rgba(84, 217, 215, 0.6)</h4>
+                <h4>hsla(179, 63.6%, 59%, 0.6)</h4>
+            </div>
+            <div class="c-example-4">
+                <h3>Light red</h3>
+                <h4>#d95454</h4>
+                <h4>rgb(217, 84, 84)</h4>
+                <h4>hsl(0, 63.6%, 59%)</h4>
+            </div>
+        </div>
+        <div class="fonts">
+            <h2>Fonts</h2>
+        </div>
+        <div class="styles">
+            <h2>Styles</h2>
+        </div>
+    </main>
 </body>
 </html>

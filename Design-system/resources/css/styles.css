@@ -1,0 +1,66 @@
+.source-code-pro-code {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+body {
+    background-color: #f5fcff;
+}
+.title {
+    font-size: 50px;
+    text-align: center;
+    background-color: #abd5e7;
+    position: relative;
+    display: block;
+    padding: 40px 0;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+h1, h2, h3, h4 {
+    font-family: "Roboto";
+}
+p, li{
+    font-family: "Open Sans";
+    text-align: justify;
+}
+span {
+    text-align: center;
+    font-family: "Source Code Pro";
+    background-color: #ffffffda;
+}
+.c-example-1, .c-example-2, .c-example-3, .c-example-4{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.c-example-1{
+    background-color: #6494eddf;
+}
+.c-example-2{
+    background-color: hsl(74 64.3% 59.4%);
+}
+.c-example-3{
+    background-color: #54d9d799;
+}
+.c-example-4{
+    background-color: #d95454;
+}
