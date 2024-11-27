@@ -18,38 +18,50 @@
 }
 body {
     background-color: #f5fcff;
+    padding: 0 300px;
 }
 .title {
     font-size: 50px;
     text-align: center;
-    background-color: #abd5e7;
+    background-color: white;
     position: relative;
     display: block;
-    padding: 40px 0;
-    border-radius: 10px;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
+    padding-left: 0%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 h1, h2, h3, h4 {
     font-family: "Roboto";
 }
-p, li{
+h2, th {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+p, li, .fonts-example{
     font-family: "Open Sans";
     text-align: justify;
 }
 span {
     text-align: center;
     font-family: "Source Code Pro";
-    background-color: #ffffffda;
+    background-color: #fff;
+    font-weight: bold;
+}
+.examples {
+    display: block;
+    margin: auto;
+    padding: 5px 200px;
 }
 .c-example-1, .c-example-2, .c-example-3, .c-example-4{
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
     padding: 20px;
     border: 1px solid gray;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: inline-block;
 }
 .c-example-1{
@@ -63,4 +75,39 @@ span {
 }
 .c-example-4{
     background-color: #d95454;
+}
+table{
+    border: 1px solid gray;
+    display: inline-table;
+    padding: 20px;
+    margin: 5px 30px;
+    border-radius: 15px;
+}
+.style {
+    font-size: 12px;
+    color: gray;
+}
+.robo-1, .code-1, .open-1{
+    font-weight: 100;
+    font-style: thin;
+    font-size: 25px;
+}
+.robo-2, .code-2, .open-2{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+}
+.robo-3, .code-3, .open-3{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 25px;
+}
+.robo-1, .robo-2, .robo-3{
+    font-family: "Roboto";
+}
+.code-1, .code-2, .code-3{
+    font-family: "Source Code Pro";
+}
+.open-1, .open-2, .open-3{
+    font-family: "Open Sans";
 }
