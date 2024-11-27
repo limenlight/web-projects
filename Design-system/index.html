@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everything about Style</title>
-    <link rel="stylesheet" href="/Users/cgarcia/Web-develop/Projects/Design-system/web-projects/Design-system/resources/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="resources\css\styles.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
@@ -50,38 +50,174 @@
                         <li>Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: <span>hsl(200, 20%, 50%)</span>.</li>
                     </ul>
                 </li>
-                <li>You can add opacity to color in RGB and HSL by adding a fourth value, <span>a</span>, which is represented as a percentage.</li>
+                <p></p>
+                <li>You can add opacity to color in RGB and HSL by adding a fourth value, <span>a</span>, which is represented as a percentage. For example:</li>
             </ul>
-            <div class="c-example-1">
-                <h3>Cornflower blue</h3>
-                <h4>#6494eddf</h4>
-                <h4>rgba(100, 148, 237, 0.873)</h4>
-                <h4>hsla(219, 79%, 66%, 0.873)</h4>
-            </div>
-            <div class="c-example-2">
-                <h3>Radioactive green</h3>
-                <h4>#bada55</h4>
-                <h4>rgb(186, 218, 85)</h4>
-                <h4>hsl(74, 64.3%, 59.4%)</h4>
-            </div>
-            <div class="c-example-3">
-                <h3>Cian</h3>
-                <h4>#54d9d799</h4>
-                <h4>rgba(84, 217, 215, 0.6)</h4>
-                <h4>hsla(179, 63.6%, 59%, 0.6)</h4>
-            </div>
-            <div class="c-example-4">
-                <h3>Light red</h3>
-                <h4>#d95454</h4>
-                <h4>rgb(217, 84, 84)</h4>
-                <h4>hsl(0, 63.6%, 59%)</h4>
+            <div class="examples">
+                <div class="c-example-1">
+                    <h3>Cornflower blue</h3>
+                    <h4>#6494eddf</h4>
+                    <h4>rgba(100, 148, 237, 0.873)</h4>
+                    <h4>hsla(219, 79%, 66%, 0.873)</h4>
+                </div>
+                <div class="c-example-2">
+                    <h3>Radioactive green</h3>
+                    <h4>#bada55</h4>
+                    <h4>rgb(186, 218, 85)</h4>
+                    <h4>hsl(74, 64.3%, 59.4%)</h4>
+                </div>
+                <div class="c-example-3">
+                    <h3>Cian</h3>
+                    <h4>#54d9d799</h4>
+                    <h4>rgba(84, 217, 215, 0.6)</h4>
+                    <h4>hsla(179, 63.6%, 59%, 0.6)</h4>
+                </div>
+                <div class="c-example-4">
+                    <h3>Light red</h3>
+                    <h4>#d95454</h4>
+                    <h4>rgb(217, 84, 84)</h4>
+                    <h4>hsl(0, 63.6%, 59%)</h4>
+                </div>
             </div>
         </div>
         <div class="fonts">
             <h2>Fonts</h2>
+            <p>Fonts play a crucial role in web design for several reasons:</p>
+            <ul>
+                <li><p><strong>Readability:</strong> The right font ensures that text is easy to read, enhancing user experience.</li></p>
+                <li><p><strong>Aesthetics:</strong> Fonts contribute to the overall look and feel of a website, aligning with the brand’s style and message.</li></p>
+                <li><p><strong>Hierarchy:</strong> Different font sizes and styles help establish a visual hierarchy, guiding users through the content.</li></p>
+                <li><p><strong>Emotion and Tone:</strong> Fonts can convey emotions and set the tone, whether formal, playful, modern, or traditional.</li></p>
+                <li><p><strong>Consistency:</strong> Using consistent fonts across a site maintains a cohesive and professional appearance.</li></p>
+            </ul>
+            <p>
+                Google Fonts makes it easy to bring personality and performance to our websites and products. Their robust catalog of open-source fonts and icons makes it easy to integrate expressive type and icons seamlessly. For example:
+            </p>
+            <div class="examples">
+                <table class="fonts-example">
+                    <th>Roboto</th>
+                    <tr class="style">
+                        <td>Thin 100</td>
+                    </tr>
+                    <tr class="robo-1">
+                        <td>Hello there!</td>
+                    </tr>
+                    <tr class="style">
+                        <td>Italic 300</td>
+                    </tr>
+                    <tr class="robo-2">
+                        <td>Hello there!</td>
+                    </tr>
+                    <tr class="style">
+                        <td>Bold 700</td>
+                    </tr>
+                    <tr class="robo-3">
+                        <td>Hello there!</td>
+                    </tr>
+                </table>
+                <table class="fonts-example">
+                    <th>Source Code Pro</th>
+                    <tr class="style">
+                        <td>Thin 100</td>
+                    </tr>
+                    <tr class="code-1">
+                        <td>Hello there!</td>
+                    </tr>
+                    <tr class="style">
+                        <td>Italic 300</td>
+                    </tr>
+                    <tr class="code-2">
+                        <td>Hello there!</td>
+                    </tr>
+                    <tr class="style">
+                        <td>Bold 700</td>
+                    </tr>
+                    <tr class="code-3">
+                        <td>Hello there!</td>
+                    </tr>
+                </table>
+                <table class="fonts-example">
+                    <th>Open Sans</th>
+                    <tr class="style">
+                        <td>Thin 100</td>
+                    </tr>
+                    <tr class="open-1">
+                        <td>Hello there!</td>
+                    </tr>
+                    <tr class="style">
+                        <td>Italic 300</td>
+                    </tr>
+                    <tr class="open-2">
+                        <td>Hello there!</td>
+                    </tr>
+                    <tr class="style">
+                        <td>Bold 700</td>
+                    </tr>
+                    <tr class="open-3">
+                        <td>Hello there!</td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <div class="styles">
             <h2>Styles</h2>
+            <p>Text style in web design refers to the visual appearance of text, which includes various properties that can be adjusted to enhance readability and aesthetics. Key aspects of text style include:</p>
+            <ul>
+                <li><p><strong>Font Family:</strong> The typeface used, such as Arial, Times New Roman, or custom fonts</li></p>
+                <li><p><strong>Font Size:</strong> The size of the text, typically measured in pixels, ems, or rems.</li></p>
+                <li><p><strong>Font Weight:</strong> The thickness of the text, ranging from light to bold</li></p>
+                <li><p><strong>Font Style:</strong> The slant of the text, such as normal or italic.</li></p>
+                <li><p><strong>Text Decoration:</strong> Additional styling like underlining or line-through.</li></p>
+                <li><p><strong>Text Transform:</strong>  Modifications like uppercase, lowercase, or capitalize.</li></p>
+                <li><p><strong>Line Height:</strong> The space between lines of text, affecting readability.</li></p>
+            </ul>
+            <p>
+                These properties help create a visually appealing and readable text layout. For example:
+            </p>
+            <div class="examples">
+                <table class="type-example">
+                    <tr>
+                        <td><h1>H1: General Kenobi</h1></td>
+                    </tr>
+                    <tr>
+                        <td>   
+                            <ul>
+                               <li>Font-weight</li> 
+                               <li>Font-Size</li>
+                               <li>Font-Family</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <table class="type-example">
+                    <tr>
+                        <td><h2>H2: General Kenobi</h2></td>
+                    </tr>
+                    <tr>
+                        <td>   
+                            <ul>
+                               <li>Font-weight</li> 
+                               <li>Font-Size</li>
+                               <li>Font-Family</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <table class="type-example">
+                    <tr>
+                        <td><h3>H3: General Kenobi</h3></td>
+                    </tr>
+                    <tr>
+                        <td>   
+                            <ul>
+                               <li>Font-weight</li> 
+                               <li>Font-Size</li>
+                               <li>Font-Family</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>    
+            </div>
         </div>
     </main>
 </body>
