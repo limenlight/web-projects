@@ -18,7 +18,7 @@
 }
 body {
     background-color: #f5fcff;
-    padding: 0 300px;
+    padding: 0 250px;
 }
 .title {
     font-size: 50px;
@@ -35,7 +35,7 @@ h1, h2, h3, h4 {
     font-family: "Roboto";
 }
 h2, th {
-    font-size: 30px;
+    font-size: 26px;
 }
 h3 {
     font-size: 20px;
@@ -49,11 +49,12 @@ span {
     font-family: "Source Code Pro";
     background-color: #fff;
     font-weight: bold;
+    font-size: 16px;;
 }
 .examples {
     display: block;
     margin: auto;
-    padding: 5px 200px;
+    padding: 5px 10px;
 }
 .c-example-1, .c-example-2, .c-example-3, .c-example-4{
     font-size: 12px;
@@ -79,13 +80,14 @@ span {
 table{
     border: 1px solid gray;
     display: inline-table;
-    padding: 20px;
-    margin: 5px 30px;
+    padding: 15px;
+    margin: 10px 10px;
     border-radius: 15px;
 }
 .style {
     font-size: 12px;
     color: gray;
+    font-family: "Open Sans";
 }
 .robo-1, .code-1, .open-1{
     font-weight: 100;
@@ -110,4 +112,12 @@ table{
 }
 .open-1, .open-2, .open-3{
     font-family: "Open Sans";
+}
+footer { 
+    font-family: "Roboto";
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 40px 0;
+    font-weight: 100;
 }
